@@ -1,0 +1,178 @@
+/**** BASE STYLES *****/
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, 
+h2, 
+h3 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/**** GRID ****/
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.top-section, 
+.bottom-section {
+    margin: 0 auto;
+    clear: both;
+}
+
+/**** HEADER ****/
+header {
+	height: 110px;
+	border-bottom: 3px solid #77a466;
+	margin: 0 auto;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    letter-spacing: 1px;
+    padding: 38px 0;
+}
+
+header h1 span {
+    color: #009933;
+}
+
+/**** NAV ****/
+header nav {
+    float: right;
+    padding: 46px 0;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #009933;
+}
+
+/**** TOP SECTION ****/
+.main-image {
+    height: auto;
+    float: left;
+}
+
+.main-image img {
+    border-bottom: 3px solid #009933;
+    width: 1200px;
+}
+
+.main-title {
+    height: auto;
+    float: left;
+}
+
+.main-title h2 {
+    color: #009933;
+    padding: 5px 0;
+}
+
+.main-title p {
+    padding: 0;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/**** BOTTOM SECTION ****/
+.section-one, 
+.section-two, 
+.section-three {
+    width: 399px;
+    height: auto;
+    border-top: 1px solid #eeeeee;
+    float: left;
+}
+
+.section-one h3 {
+    padding: 10px 0;
+}
+
+.section-two {
+    border-right: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    height: auto;
+}
+
+.section-two h3, 
+.section-three h3 {
+    padding: 10px 30px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px 0;
+    color: #009933;
+}
+
+.reviews {
+    color: #333;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.address {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/**** FOOTER ****/
+footer {
+    height: 50 px;
+    border-top: 3px solid #eee;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+}
+
+footer span {
+    color: #009933;
+    font-style: italic;
+    font-family: 'Leckerli One', cursive;
+    text-transform: lowercase;
+    font-size: 20px;
+}
